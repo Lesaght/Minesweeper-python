@@ -1,36 +1,57 @@
-# Minesweeper with Registration and Login
+# 🧩 Сапёр с регистрацией и входом в систему
 
-This repository contains a web-based implementation of the classic Minesweeper game, enhanced with user registration and login functionality.  Players can create accounts, track their high scores, and compete against others (future feature).
+Этот репозиторий содержит веб-реализацию классической игры Сапёр, улучшенную функциями регистрации пользователей и входа в систему. Игроки могут создавать учетные записи, отслеживать свои рекорды и соревноваться в таблице лидеров.
 
-## Features
+## 🎮 Особенности
 
-• **Classic Minesweeper Gameplay:**  The core mechanics of Minesweeper are faithfully recreated.  Players can reveal squares, flag potential mines, and attempt to clear the board without detonating a mine.  Different difficulty levels are supported.
-• **User Registration and Login:** Secure user accounts allow players to save their progress and high scores.  Password hashing is implemented for security.
-• **High Score Tracking:**  The game keeps track of high scores for each difficulty level for each user.
-• **Responsive Design:** The game is designed to be playable on various screen sizes, including desktops and mobile devices. (Further optimization may be needed)
+- **🕹️ Классический игровой процесс Сапёра:** Основные механики Сапёра воспроизведены с точностью. Игроки могут открывать клетки, отмечать потенциальные мины и пытаться очистить поле, не подорвавшись на минах.
+- **🔐 Регистрация и вход в систему:** Безопасные учетные записи позволяют игрокам сохранять свой прогресс и рекорды. Реализовано хеширование паролей для безопасности.
+- **🏆 Отслеживание рекордов:** Игра отслеживает рекорды для каждого уровня сложности для каждого пользователя.
+- **📱 Адаптивный дизайн:** Игра разработана так, чтобы быть играбельной на различных размерах экранов, включая настольные и мобильные устройства (может потребоваться дальнейшая оптимизация).
 
+## 🛠️ Технологический стек
 
-## Technology Stack
+- **💻 Бэкенд:** Python (Flask)
+- **💾 База данных:** SQLite3
 
-• **Frontend:**  [Specify Frontend Technologies Used e.g., HTML, CSS, JavaScript, React, Vue, etc.]
-• **Backend:** [Specify Backend Technologies Used e.g., Node.js, Python (Flask/Django), PHP, etc.]
-• **Database:** [Specify Database Used e.g., PostgreSQL, MySQL, MongoDB, etc.]
+## 🚀 Начало работы
 
+Эти инструкции помогут вам получить копию проекта и запустить его на вашем локальном компьютере для разработки и тестирования.
 
-## Getting Started
+### 📋 Предварительные требования
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+- Python 3.x
+- Flask
+- SQLite3
 
-### Prerequisites
+### 🛠️ Установка
 
-• [List any necessary software or dependencies, e.g., Node.js, npm, a specific database system]
+1. Клонируйте репозиторий:
+    ```bash
+    git clone https://github.com/Lesaght/Minesweeper-with-registration-and-login.git
+    ```
+2. Перейдите в каталог проекта:
+    ```bash
+    cd Minesweeper-with-registration-and-login
+    ```
+3. Установите необходимые пакеты Python:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. Запустите приложение:
+    ```bash
+    python main.py
+    ```
 
-### Installation
+## 💡 Использование
 
-1. Clone the repository:
-   
-bash
-   git clone https://github.com/Lesaght/Minesweeper-with-registration-and-login.git
-   ```
-2.And run the file main.py
+1. Зарегистрируйте новую учетную запись или войдите в существующую.
+2. Начните играть в Сапёр и стремитесь к наивысшему результату!
 
+## 🤝 Внесение вклада
+
+Вклады приветствуются! Пожалуйста, форкните этот репозиторий и отправьте пулл-реквест с вашими изменениями.
+
+## 📜 Лицензия
+
+Лицензий нету используйте как хотите
