@@ -28,11 +28,11 @@
 
 1. Клонируйте репозиторий:
     ```bash
-    git clone https://github.com/Lesaght/Minesweeper-with-registration-and-login.git
+    git clone https://github.com/Lesaght/Minesweeper-python.git
     ```
 2. Перейдите в каталог проекта:
     ```bash
-    cd Minesweeper-with-registration-and-login
+    cd Minesweeper-python
     ```
 3. Установите необходимые пакеты Python:
     ```bash
